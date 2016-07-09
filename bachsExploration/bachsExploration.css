@@ -1,0 +1,30 @@
+*{
+	vertical-align: baseline;
+	font-family: Verdana;
+	font-style: inherit;
+	font-size: inherit;
+	border: 0px none;
+/* 	outline: 1px dotted red; 0; */
+	padding: 0px;
+	margin: 0px; 
+}
+
+body{
+	background-color: black;
+}
+
+#gameRegion{
+      width: 600px;
+      height: 400px;
+      background: linear-gradient(grey,white,grey);
+      position:relative;
+    }
+
+#box{
+      width: 15px;
+      height: 15px;
+      background-color: red;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }
